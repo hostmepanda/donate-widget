@@ -1,0 +1,17 @@
+version: "3.2"
+services:
+  nodejs-donate-widget:
+    container_name: dw-node
+    build: .
+    ports:
+      - 23423:23423
+    volumes:
+      - .:/var/www/ksk-api
+
+  mongodb-donate-widget:
+    container_name: dw-mongo
+    image: mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongodb:/data/db
