@@ -1,5 +1,12 @@
 'use strict';
 
+const ALLOWED_CURRENCIES = [
+  'USD',
+  'EUR',
+  'GBP',
+  'RUB',
+];
+
 const MONGOOSE_DEFAULT_OPTS = {
   timestamps: true,
   toJSON: {
@@ -15,5 +22,6 @@ const MONGOOSE_DEFAULT_OPTS = {
 };
 
 module.exports = {
+  ALLOWED_CURRENCIES,
   MONGOOSE_DEFAULT_OPTS,
 };

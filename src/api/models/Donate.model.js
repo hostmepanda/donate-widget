@@ -3,8 +3,6 @@ const { model, Schema } = require('mongoose');
 
 const { MONGOOSE_DEFAULT_OPTS } = require('../../lib/constants');
 
-const DONATES = 'Donates';
-
 const DonateSchema = new Schema({
   amount: {
     type: Number,
@@ -19,5 +17,5 @@ const DonateSchema = new Schema({
 });
 
 module.exports = {
-  schema: model(DONATES, DonateSchema),
+  DonateSchema,
 };
