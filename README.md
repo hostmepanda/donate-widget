@@ -22,3 +22,8 @@ yarn dev
 ```shell script
 yarn start
 ```
+
+##### Docker run 
+```shell script
+docker-compose up
+```
