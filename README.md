@@ -27,5 +27,5 @@ yarn start
 
 ##### Docker run 
 ```shell script
-docker-compose up
+docker-compose build
 ```
