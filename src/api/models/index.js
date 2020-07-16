@@ -14,7 +14,7 @@ mongoose.connect(DATA_BASE, {
 });
 mongoose.connection
   .on('error', (err) => {
-    throw err;
+    throw err.message;
   })
   .once('open', () => {
     console.log(`Successfully connected to ${ DATA_BASE }`);
