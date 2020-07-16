@@ -6,7 +6,7 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - .:/var/www/ksk-api
+      - .:/var/www/donate-widget
 
   mongodb-dwidget:
     container_name: dw-mongo
