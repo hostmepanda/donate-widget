@@ -13,6 +13,8 @@
 ---
 #### Running instruction
 
+run either in docker on localy and navigate in browser to http://localhost:3000
+
 ##### Development
 ```shell script
 yarn dev
