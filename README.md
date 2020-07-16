@@ -7,7 +7,6 @@
 
 #### Frontend
 - Vuejs
-- Bootstrap 4
 
 #### Services
 - Docker containerized
